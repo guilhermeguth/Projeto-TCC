@@ -78,7 +78,7 @@ export default {
 }
 
 .login-box {
-    width: 300px;
+    width: 400px;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
