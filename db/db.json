@@ -273,51 +273,5 @@
       "tipo": "Cancelado"
     }
   ],
-  "pedidos": [
-    {
-      "nome": null,
-      "tamanho": null,
-      "acompanhamento": null,
-      "opcionais": [],
-      "valor": "0.00",
-      "status": "Novo",
-      "id": 1
-    },
-    {
-      "nome": "Guth",
-      "tamanho": "330 ML",
-      "acompanhamento": "Abacaxi",
-      "opcionais": [
-        "Beijinho",
-        "Banana",
-        "Amendoim"
-      ],
-      "valor": "19.00",
-      "status": "Novo",
-      "id": 2
-    },
-    {
-      "nome": "Guth",
-      "tamanho": "330 ML",
-      "acompanhamento": "Abacaxi",
-      "opcionais": [
-        "Banana"
-      ],
-      "valor": "15.00",
-      "status": "Novo",
-      "id": 3
-    },
-    {
-      "nome": "Adilson",
-      "tamanho": "330 ML",
-      "acompanhamento": "Abacaxi",
-      "opcionais": [
-        "Banana",
-        "Beijinho"
-      ],
-      "valor": "17.00",
-      "status": "Novo",
-      "id": 4
-    }
-  ]
+  "pedidos": []
 }
