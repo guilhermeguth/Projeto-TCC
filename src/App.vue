@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Navbar v-if="!isLoginPage && !isCadastroPage && !isEsqueceuSenhaPage" :alt="app_name"/>
-    <Footer v-if="!isLoginPage && !isCadastroPage && !isEsqueceuSenhaPage" />
     <Login v-if="isLoginPage"/>
     <Cadastro v-if="isCadastroPage"/>
     <EsqueceuSenha v-if="isEsqueceuSenhaPage"/>
+    <Navbar v-if="!isLoginPage && !isCadastroPage && !isEsqueceuSenhaPage" :alt="app_name"/>
+    <Footer v-if="!isLoginPage && !isCadastroPage && !isEsqueceuSenhaPage" />
   </div>
 </template>
 
