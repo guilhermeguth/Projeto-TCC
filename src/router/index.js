@@ -22,6 +22,16 @@ const routes = [
     name: 'login',
     component: () => import(/* webpackChunkName: "about" */ '../views/Login.vue')
   },
+  {
+    path: '/cadastro',
+    name: 'cadastro',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Cadastro.vue')
+  },
+  {
+    path: '/esqueceu-senha',
+    name: 'esqueceu-senha',
+    component: () => import(/* webpackChunkName: "about" */ '../views/EsqueceuSenha.vue')
+  },
 ]
 
 const router = createRouter({

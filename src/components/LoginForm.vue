@@ -1,6 +1,7 @@
 <template>
     <div class="login-container">
         <div class="login-box">
+            <h1 class="login-title">Bem-vindo ao Açaí Express</h1>
             <form @submit.prevent="login">
                 <div class="form-group">
                     <label for="username">Usuário:</label>
@@ -10,8 +11,10 @@
                     <label for="password">Senha:</label>
                     <input type="password" id="password" v-model="password" placeholder="Digite sua senha" required />
                 </div>
-                <button type="submit">Entrar</button>
+                <button class="login-button" type="submit">Entrar</button>
             </form>
+            <p class="signup-link">Não tem uma conta? <a href="/cadastro">Cadastre-se aqui</a></p>
+            <p class="forgot-password-link"><a href="/esqueceu-senha">Esqueceu a senha?</a></p>
         </div>
     </div>
     <div>
@@ -71,21 +74,23 @@ export default {
     align-items: center;
     height: 100vh;
     background-color: #46295a;
-    /* Define a cor de fundo */
+    margin: 0;
 }
 
 .login-box {
     width: 300px;
     padding: 20px;
-    background-color: #f2f2f2;
+    background-color: #fff;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
-.login-box h1 {
+.login-title {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #46295a;
 }
 
 .form-group {
@@ -95,6 +100,7 @@ export default {
 label {
     display: block;
     font-weight: bold;
+    color: #46295a;
 }
 
 input {
@@ -104,17 +110,45 @@ input {
     border-radius: 5px;
 }
 
-button {
-    background-color: #007bff;
-    color: white;
+.login-button {
+    background-color: #46295a;
+    color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
+.login-button:hover {
+    background-color: #32204a;
+}
+
+.signup-link {
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #46295a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+.forgot-password-link {
+    margin-top: 10px;
+}
+
+.forgot-password-link a {
+    color: #46295a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.forgot-password-link a:hover {
+    text-decoration: underline;
 }
 
 .message-component {
@@ -130,4 +164,5 @@ button:hover {
     margin: 0;
     /* Remova a margem */
     z-index: 999;
-}</style>
+}
+</style>

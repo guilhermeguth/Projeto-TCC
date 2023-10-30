@@ -1,8 +1,10 @@
 <template>
   <div>
-    <Navbar v-if="!isLoginPage" :alt="app_name"/>
-    <Footer v-if="!isLoginPage" />
+    <Navbar v-if="!isLoginPage && !isCadastroPage && !isEsqueceuSenhaPage" :alt="app_name"/>
+    <Footer v-if="!isLoginPage && !isCadastroPage && !isEsqueceuSenhaPage" />
     <Login v-if="isLoginPage"/>
+    <Cadastro v-if="isCadastroPage"/>
+    <EsqueceuSenha v-if="isEsqueceuSenhaPage"/>
   </div>
 </template>
 
@@ -10,12 +12,16 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Login from "./components/LoginForm";
+import Cadastro from "./components/CadastroForm";
+import EsqueceuSenha from "./components/EsqueceuSenhaForm";
 
 export default {
   components: {
     Navbar,
     Footer,
-    Login
+    Login,
+    Cadastro,
+    EsqueceuSenha
   },
 
   data() {
@@ -27,7 +33,16 @@ export default {
   computed: {
     isLoginPage() {
       return this.$route.name === 'login';
+    },
+
+    isCadastroPage() {
+      return this.$route.name === 'cadastro';
+    },
+
+    isEsqueceuSenhaPage() {
+      return this.$route.name === 'esqueceu-senha';
     }
+    
   }
 }
 </script>
