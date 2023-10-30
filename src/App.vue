@@ -1,21 +1,32 @@
 <template>
-  <Navbar :alt="app_name"/>
-  <Footer />
+  <div>
+    <Navbar v-if="!isLoginPage" :alt="app_name"/>
+    <Footer v-if="!isLoginPage" />
+    <Login v-if="isLoginPage"/>
+  </div>
 </template>
 
 <script>
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Login from "./components/LoginForm";
 
 export default {
   components: {
     Navbar,
-    Footer
+    Footer,
+    Login
   },
 
   data() {
     return {
       app_name: "Açaí Express"
+    }
+  },
+
+  computed: {
+    isLoginPage() {
+      return this.$route.name === 'login';
     }
   }
 }
