@@ -1,0 +1,311 @@
+{
+  "acai": {
+    "copos": [
+      {
+        "id": 1,
+        "tamanho": "330 ML"
+      },
+      {
+        "id": 2,
+        "tamanho": "440 ML"
+      },
+      {
+        "id": 3,
+        "tamanho": "550 ML"
+      }
+    ],
+    "adicionalPrincipal": [
+      {
+        "id": 0,
+        "tipo": "Nenhum"
+      },
+      {
+        "id": 1,
+        "tipo": "Abacaxi"
+      },
+      {
+        "id": 2,
+        "tipo": "Amendoim"
+      },
+      {
+        "id": 3,
+        "tipo": "Banana"
+      },
+      {
+        "id": 4,
+        "tipo": "Beijinho"
+      },
+      {
+        "id": 5,
+        "tipo": "Bis"
+      },
+      {
+        "id": 6,
+        "tipo": "Brigadeiro"
+      },
+      {
+        "id": 7,
+        "tipo": "Creme Belga"
+      },
+      {
+        "id": 8,
+        "tipo": "Creme de Leite Ninho"
+      },
+      {
+        "id": 9,
+        "tipo": "Creme de Oreo"
+      },
+      {
+        "id": 10,
+        "tipo": "Creme de Paçoca"
+      },
+      {
+        "id": 11,
+        "tipo": "Chantilly"
+      },
+      {
+        "id": 12,
+        "tipo": "Charge"
+      },
+      {
+        "id": 13,
+        "tipo": "Chocoball"
+      },
+      {
+        "id": 14,
+        "tipo": "Chocolate Branco"
+      },
+      {
+        "id": 15,
+        "tipo": "Chocolate Preto"
+      },
+      {
+        "id": 16,
+        "tipo": "Confete"
+      },
+      {
+        "id": 17,
+        "tipo": "Farinha Láctea"
+      },
+      {
+        "id": 18,
+        "tipo": "Granola"
+      },
+      {
+        "id": 19,
+        "tipo": "Kiwi"
+      },
+      {
+        "id": 20,
+        "tipo": "Morango"
+      },
+      {
+        "id": 21,
+        "tipo": "Oreo"
+      },
+      {
+        "id": 22,
+        "tipo": "Ouro Branco"
+      },
+      {
+        "id": 23,
+        "tipo": "Ovomaltine"
+      },
+      {
+        "id": 24,
+        "tipo": "Paçoca"
+      },
+      {
+        "id": 25,
+        "tipo": "Sonho de Valsa"
+      },
+      {
+        "id": 26,
+        "tipo": "Uva"
+      }
+    ],
+    "adicionais": [
+      {
+        "id": 1,
+        "tipo": "Abacaxi"
+      },
+      {
+        "id": 2,
+        "tipo": "Aveia"
+      },
+      {
+        "id": 3,
+        "tipo": "Amendoim"
+      },
+      {
+        "id": 4,
+        "tipo": "Banana"
+      },
+      {
+        "id": 5,
+        "tipo": "Beijinho"
+      },
+      {
+        "id": 6,
+        "tipo": "Bis"
+      },
+      {
+        "id": 7,
+        "tipo": "Brigadeiro"
+      },
+      {
+        "id": 8,
+        "tipo": "Creme Belga"
+      },
+      {
+        "id": 9,
+        "tipo": "Creme de Avela"
+      },
+      {
+        "id": 10,
+        "tipo": "Creme de Leite Ninho"
+      },
+      {
+        "id": 11,
+        "tipo": "Creme de Oreo"
+      },
+      {
+        "id": 12,
+        "tipo": "Creme de Ovomaltine"
+      },
+      {
+        "id": 13,
+        "tipo": "Creme de Paçoca"
+      },
+      {
+        "id": 14,
+        "tipo": "Chantilly"
+      },
+      {
+        "id": 15,
+        "tipo": "Charge"
+      },
+      {
+        "id": 16,
+        "tipo": "Chocoball"
+      },
+      {
+        "id": 17,
+        "tipo": "Chocolate Branco"
+      },
+      {
+        "id": 18,
+        "tipo": "Chocolate Preto"
+      },
+      {
+        "id": 19,
+        "tipo": "Confete"
+      },
+      {
+        "id": 20,
+        "tipo": "Farinha Láctea"
+      },
+      {
+        "id": 21,
+        "tipo": "Granola"
+      },
+      {
+        "id": 22,
+        "tipo": "Kit Kat"
+      },
+      {
+        "id": 23,
+        "tipo": "Kiwi"
+      },
+      {
+        "id": 24,
+        "tipo": "Mel"
+      },
+      {
+        "id": 25,
+        "tipo": "Morango"
+      },
+      {
+        "id": 26,
+        "tipo": "Oreo"
+      },
+      {
+        "id": 27,
+        "tipo": "Ouro Branco"
+      },
+      {
+        "id": 28,
+        "tipo": "Ovomaltine"
+      },
+      {
+        "id": 29,
+        "tipo": "Paçoca"
+      },
+      {
+        "id": 30,
+        "tipo": "Sonho de Valsa"
+      },
+      {
+        "id": 31,
+        "tipo": "Uva"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Novo"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Em entrega"
+    },
+    {
+      "id": 4,
+      "tipo": "Finalizado"
+    },
+    {
+      "id": 5,
+      "tipo": "Cancelado"
+    }
+  ],
+  "pedidos": [
+    {
+      "nome": null,
+      "tamanho": null,
+      "acompanhamento": null,
+      "opcionais": [],
+      "valor": "0.00",
+      "status": "Novo",
+      "id": 1
+    },
+    {
+      "nome": "Guth",
+      "tamanho": "330 ML",
+      "acompanhamento": "Abacaxi",
+      "opcionais": [
+        "Beijinho",
+        "Banana",
+        "Amendoim"
+      ],
+      "valor": "19.00",
+      "status": "Novo",
+      "id": 2
+    },
+    {
+      "nome": "Guth",
+      "tamanho": "330 ML",
+      "acompanhamento": "Abacaxi",
+      "opcionais": [
+        "Banana"
+      ],
+      "valor": "15.00",
+      "status": "Novo",
+      "id": 3
+    }
+  ]
+}
