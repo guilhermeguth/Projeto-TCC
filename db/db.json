@@ -273,5 +273,53 @@
       "tipo": "Cancelado"
     }
   ],
-  "pedidos": []
+  "pedidos": [
+    {
+      "nome": "Guth",
+      "tamanho": "550 ML",
+      "acompanhamento": "Morango",
+      "opcionais": [
+        "Creme de Oreo",
+        "Charge"
+      ],
+      "valor": "22.00",
+      "status": "Em produção",
+      "id": 1
+    },
+    {
+      "nome": "Elione Guth",
+      "tamanho": "330 ML",
+      "acompanhamento": "Amendoim",
+      "opcionais": [
+        "Aveia",
+        "Amendoim"
+      ],
+      "valor": "17.00",
+      "status": "Em produção",
+      "id": 2
+    },
+    {
+      "nome": "Elione Guth",
+      "tamanho": "330 ML",
+      "acompanhamento": "Abacaxi",
+      "opcionais": [
+        "Beijinho",
+        "Banana"
+      ],
+      "valor": "17.00",
+      "status": "Novo",
+      "id": 3
+    },
+    {
+      "nome": "Douglas Cuchi",
+      "tamanho": "440 ML",
+      "acompanhamento": "Creme Belga",
+      "opcionais": [
+        "Amendoim"
+      ],
+      "valor": "18.00",
+      "status": "Novo",
+      "id": 4
+    }
+  ]
 }
